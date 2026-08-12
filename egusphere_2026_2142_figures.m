@@ -1,12 +1,24 @@
 %%% Figures for, "Increasing Sea Surface Warming Suppresses Primary Sea
 %%% Spray Aerosol Number Production" – egusphere-2026-2142
 
-% Justin Hamlin
+% Justin Hamlin, University of California San Diego
+% Center for Aerosol Impacts on Chemistry of the Environment (CAICE)
+% PI: Kimberly Prather
 % 12 August 2026
 
+% Instructions: This script will work assuming all data is contained within
+% the directory where the .m is located. Edit directory call and addpath
+% before running.
+
+
 clear, clc, close all
+
+% change directory to location of data, addpath for function utilization.
+% Example provided below
 cd('C:/Users/justi/OneDrive/Documents/GitHub/egusphere-2026-2142/')
 addpath('C:/Users/justi/OneDrive/Documents/GitHub/egusphere-2026-2142/')
+
+% load data
 data = load('soars_polar_final.mat').all_stats;
 smops = load('soars_polar_smops_final.mat').all_stats;
 
