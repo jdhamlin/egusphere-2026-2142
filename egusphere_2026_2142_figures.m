@@ -1720,7 +1720,7 @@ cd('C:/Users/justi/OneDrive/Documents/GitHub/egusphere-2026-2142/')
 data = load('soars_polar_final.mat').all_stats;
 smops = load('soars_polar_smops_final.mat').all_stats;
 
-% load full data 
+%% load full data 
 full_smps_aps = load('soars_polar_smps_aps.mat').all_stats;
 full_sm_ops = load('soars_polar_sm_ops.mat').all_stats;
 
