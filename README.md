@@ -1,5 +1,8 @@
 # egusphere-2026-2142
 *repo for data and scripts to generate figures for egusphere-2026-2142 manuscript*
+For research article published in Atmospheric Chemistry and Physics titled "Sea surface warming increases primary sea spray aerosol number production" 
+DOI link: https://doi.org/10.5194/acp-26-12211-2026
+*This repo does not represent final data/scripts for published research article. Refer to manuscript and cited data repository for most current files*
 
 # Contents
 1. Regression_Metrics.m - MATLAB function characterizing linear and quadratic regressions
